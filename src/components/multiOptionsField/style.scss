@@ -1,0 +1,39 @@
+.add-feature-button {
+    float: right;
+    width: 3rem;
+    margin-bottom: 15px;
+    background-color: white;
+    color: #00435a;
+    border: 1px solid #dddcdc;
+    padding: 5.5px;
+    margin-left: 1rem;
+
+    &:hover {
+        background-color: #f0f0f0;
+    }
+}
+
+.remove-feature-button {
+    float: right;
+    width: 5%;
+    background-color: white;
+    border: 1px solid #dddcdc;
+    padding: 5.5px;
+
+    &:hover {
+        background-color: #f0f0f0;
+    }
+}
+
+.edit-feature-button {
+    float: right;
+    width: 5%;
+    background-color: white;
+    color: #00435a;
+    border: 1px solid #dddcdc;
+    padding: 5.5px;
+
+    &:hover {
+        background-color: #f0f0f0;
+    }
+}

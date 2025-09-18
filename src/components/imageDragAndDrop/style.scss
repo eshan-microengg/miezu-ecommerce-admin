@@ -1,0 +1,56 @@
+/* DragDropImage.css */
+
+.dropzone {
+    min-height: 200px;
+    max-height: 250px;
+    border: 2px dashed #0070f3; /* Blue border */
+    display: flex;
+    flex-direction: column; /* Column direction to stack content */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #f9f9f9; /* Light background */
+    transition: border-color 0.3s ease;
+    padding: 20px; /* Padding for spacing */
+    position: relative; /* Position for absolute elements */
+}
+
+.dropzone:hover {
+    border-color: #0a58ca; /* Darker border on hover */
+}
+
+.preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px; /* Space between message and previews */
+    justify-content: center; /* Center the previews */
+}
+
+.preview-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px; /* Space between preview items */
+}
+
+.preview-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.remove-button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #dc3545; /* Red background for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}

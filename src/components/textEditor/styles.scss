@@ -1,0 +1,20 @@
+/* Wrapper for the editor */
+.editor-wrapper {
+    border: 1px solid #e4e4e4; 
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  
+    &.invalid {
+      border-color: rgb(221, 53, 68); 
+    }
+  }
+  
+  
+  /* Additional editor styling */
+  .toolbar-class {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .editor-class {
+    min-height: 147px;
+  }

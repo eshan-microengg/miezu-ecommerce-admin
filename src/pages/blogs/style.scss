@@ -1,0 +1,14 @@
+.react-mde .mde-tabs button {
+    color: #000; /* Change the text color to black or any desired color */
+    font-size: 14px; /* Optional: Adjust font size */
+  }
+  
+  .react-mde .mde-tabs button.mde-tab-selected {
+    color: #007bff; /* Optional: Highlight color for the active tab */
+    font-weight: bold; /* Optional: Make the selected tab bold */
+  }
+  
+  .react-mde .mde-tabs button:hover {
+    color: #0056b3; /* Optional: Add a hover effect */
+  }
+  
